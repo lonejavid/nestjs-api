@@ -1,26 +1,11 @@
-# Dependencies
-node_modules
-
-# Build
-dist
-
-# IDE
-.idea
-.vscode
-*.sw?
-
-# OS
-.DS_Store
-
-# Env
 .env
-.env.*
-!.env.example
-
-# Logs
-*.log
-npm-debug.log*
-
-# Test
-coverage
-.nyc_output
+node_modules
+dist
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.test
+.env.production
